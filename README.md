@@ -7,4 +7,4 @@ So I bring to you a whimsy project which will fulfill your vitamin need* (or I h
 
 Anyways, enjoy.
 
-* = Terms and Conditions apply.
+ (* = Terms and Conditions apply.)
