@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
 :root {
+<<<<<<< HEAD
     --fruit-orange: #ff9f43;
     --fruit-pink: #ff6b81;
     --fruit-red: #ee5a24;
@@ -9,6 +10,10 @@
     --fruit-mango: #ffc048;
     --fruit-berry: #e84393;
     --surface: rgba(255, 255, 255, 0.12);
+=======
+    --primary: #ff4757;
+    --surface: rgba(255, 255, 255, 0.15);
+>>>>>>> 7fb4702d05af30ef260d7a695a0fbd066be24e0f
     --text: #ffffff;
 }
 
@@ -23,6 +28,7 @@ html {
     background-color: #1a1a1a;
 }
 
+<<<<<<< HEAD
 /* ===================== START MENU ===================== */
 #start-menu {
     position: fixed;
@@ -149,6 +155,8 @@ html {
 }
 
 /* ===================== GAME CONTAINER ===================== */
+=======
+>>>>>>> 7fb4702d05af30ef260d7a695a0fbd066be24e0f
 .container {
     position: relative;
     width: 100%;
@@ -164,7 +172,13 @@ html {
     width: 100%;
     height: 100%;
     object-fit: cover;
+<<<<<<< HEAD
     transform: translate(-50%, -50%) scaleX(-1);
+=======
+    /* Both cover the same area identically */
+    transform: translate(-50%, -50%) scaleX(-1);
+    /* Mirror both */
+>>>>>>> 7fb4702d05af30ef260d7a695a0fbd066be24e0f
 }
 
 /* Canvas needs to sit on top of video */
@@ -191,6 +205,7 @@ html {
     justify-content: space-between;
 }
 
+<<<<<<< HEAD
 /* Glassmorphism Panel styles — fruity tint */
 .glass-panel {
     background: rgba(255, 255, 255, 0.1);
@@ -201,6 +216,16 @@ html {
     box-shadow:
         0 8px 32px rgba(0, 0, 0, 0.25),
         inset 0 1px 0 rgba(255, 255, 255, 0.15);
+=======
+/* Glassmorphism Panel styles */
+.glass-panel {
+    background: var(--surface);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+>>>>>>> 7fb4702d05af30ef260d7a695a0fbd066be24e0f
 }
 
 /* Header */
@@ -227,6 +252,7 @@ header {
     font-size: 1.8rem;
 }
 
+<<<<<<< HEAD
 /* Lives display for endless mode */
 .lives-display {
     display: flex;
@@ -245,6 +271,9 @@ header {
 }
 
 /* ===================== OVERLAY (Loading / Game Over) ===================== */
+=======
+/* Overlay */
+>>>>>>> 7fb4702d05af30ef260d7a695a0fbd066be24e0f
 #overlay-screen {
     position: absolute;
     top: 0;
@@ -319,12 +348,19 @@ h1 {
     margin: 0 0 10px 0;
     font-weight: 900;
     font-size: 2.5rem;
+<<<<<<< HEAD
     background: linear-gradient(135deg, var(--fruit-orange), var(--fruit-pink), var(--fruit-grape));
     background-size: 200% 200%;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradientShift 4s ease infinite;
+=======
+    background: linear-gradient(45deg, #ff6b81, #ff4757);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+>>>>>>> 7fb4702d05af30ef260d7a695a0fbd066be24e0f
 }
 
 p {
@@ -334,11 +370,16 @@ p {
     line-height: 1.5;
 }
 
+<<<<<<< HEAD
 /* ===================== BUTTONS — Fruity Glossy ===================== */
 .btn {
     background: linear-gradient(135deg, var(--fruit-orange), var(--fruit-pink), var(--fruit-grape));
     background-size: 200% 200%;
     animation: gradientShift 4s ease infinite;
+=======
+.btn {
+    background: linear-gradient(45deg, #ff4757, #ff6b81);
+>>>>>>> 7fb4702d05af30ef260d7a695a0fbd066be24e0f
     border: none;
     padding: 15px 40px;
     border-radius: 30px;
@@ -347,13 +388,18 @@ p {
     font-size: 1.2rem;
     font-family: inherit;
     cursor: pointer;
+<<<<<<< HEAD
     box-shadow:
         0 6px 20px rgba(255, 107, 129, 0.4),
         inset 0 1px 0 rgba(255, 255, 255, 0.3);
+=======
+    box-shadow: 0 6px 20px rgba(255, 71, 87, 0.4);
+>>>>>>> 7fb4702d05af30ef260d7a695a0fbd066be24e0f
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: 10px;
+<<<<<<< HEAD
     position: relative;
     overflow: hidden;
 }
@@ -369,20 +415,27 @@ p {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
     border-radius: 30px 30px 0 0;
     pointer-events: none;
+=======
+>>>>>>> 7fb4702d05af30ef260d7a695a0fbd066be24e0f
 }
 
 .btn:hover {
     transform: translateY(-3px) scale(1.05);
+<<<<<<< HEAD
     box-shadow:
         0 10px 30px rgba(255, 107, 129, 0.5),
         0 0 40px rgba(165, 94, 234, 0.2),
         inset 0 1px 0 rgba(255, 255, 255, 0.3);
+=======
+    box-shadow: 0 10px 25px rgba(255, 71, 87, 0.6);
+>>>>>>> 7fb4702d05af30ef260d7a695a0fbd066be24e0f
 }
 
 .btn:active {
     transform: translateY(1px);
 }
 
+<<<<<<< HEAD
 /* Pulsing glow animation for start button */
 .btn-glow {
     animation: gradientShift 4s ease infinite, pulseGlow 2s ease-in-out infinite;
@@ -402,10 +455,13 @@ p {
     }
 }
 
+=======
+>>>>>>> 7fb4702d05af30ef260d7a695a0fbd066be24e0f
 .hidden {
     display: none !important;
 }
 
+<<<<<<< HEAD
 /* Loading Spinner — fruity colors */
 .loader {
     border: 5px solid rgba(255, 255, 255, 0.1);
@@ -416,6 +472,16 @@ p {
     width: 40px;
     height: 40px;
     animation: spin 0.8s linear infinite;
+=======
+/* Loading Spinner */
+.loader {
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    border-top: 5px solid var(--primary);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+>>>>>>> 7fb4702d05af30ef260d7a695a0fbd066be24e0f
     margin-bottom: 20px;
 }
 
